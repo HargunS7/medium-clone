@@ -1,0 +1,135 @@
+body,
+h1,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 400;
+}
+html,body{
+    overflow: hidden;
+}
+
+body {
+    background-color: rgba(248, 240, 229, 0.567);
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 300px;
+    border-bottom: 1px solid #000000;
+}
+
+.logo {
+    font-size: 1.9rem;
+    font-weight: bold;
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.get-started {
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.text-section {
+    max-width: 50%;
+    padding: 0px 70px;
+}
+
+.text-section h1 {
+    letter-spacing: -0.055em;
+}
+
+.text-section h1,
+p {
+    font-size: 106px;
+    margin: 0;
+    line-height: 100px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.start-reading {
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.image-section {
+    padding: 0;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.image-section img {
+    width: 460px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.footer ul {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 50px;
+    
+}
+
+.footer a {
+    text-decoration: none;
+    color: #757575;
+    font-size: 0.9rem;    
+}
