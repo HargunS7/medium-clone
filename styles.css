@@ -31,8 +31,9 @@ body {
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     font-weight: bold;
+
 }
 
 .nav-links {
@@ -116,16 +117,19 @@ p {
     justify-content: center;
     border-top: 1px solid #000000;
     padding: 20px;
+    margin-bottom: 20px;
+    
 }
 
 .footer ul {
     display: flex;
     gap: 15px;
-    flex-wrap: wrap;
+    padding-bottom: 50px;
+    
 }
 
 .footer a {
     text-decoration: none;
     color: #757575;
-    font-size: 0.9rem;
+    font-size: 0.9rem;    
 }
